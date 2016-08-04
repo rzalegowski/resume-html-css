@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-	zoom: 94.75%; /* Used for printing in Chrome */
+	/*zoom: 94.75%;*/ /* Used for printing in Chrome */
 }
 
 a {
