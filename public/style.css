@@ -52,6 +52,7 @@ ul {
  * TOP HEADER
  *
  */
+
 .top {
 	width: 100%;
 	background-color: rgb(51,51,51);
@@ -93,10 +94,11 @@ ul {
  * MAIN SECTION GLOBAL STYLING
  *
  */
+
 .middle {
 	font-size: 12px;
 	position: relative;
-	padding: 14px 30px 30px;
+	padding: 0 30px;
 }
 
 .header {
@@ -115,12 +117,16 @@ ul {
 	bottom: 0;
 }
 
+
 /*
  *
  * WORK SECTION
  *
  */
 
+#work {
+	margin: 15px 0;
+}
 .job {
 	margin: 10px 0 3px;
 	font-weight: bold;
@@ -151,6 +157,7 @@ ul {
  * PROJECT SPOTLIGHTS
  *
  */
+
 .project {
 	margin: 12px 0;
 }
@@ -183,8 +190,9 @@ ul {
  * SKILLS
  *
  */
+
 #skills {
-	margin-top: 15px;
+	margin: 15px 0;
 }
 .skills-list {
 	list-style: none;
@@ -197,6 +205,7 @@ ul {
 	text-align: center;
 	padding-left: 0;
 	font-size: 13px;
+	padding-top: 10px;
 }
 
 
@@ -206,8 +215,15 @@ ul {
  *
  */
 
+.split-pane {
+	margin: 15px 0;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 16px;
+}
+
 #education, #research {
-	width: 45%;
+	width: 47%;
 	display: inline-block;
 	font-size: 12px;
 }
@@ -216,21 +232,37 @@ ul {
 	padding: 0;
 }
 
+.img-with-text {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+#uva { background-image:url('img/UVA.png'); background-size: 70px auto; }
+.border {
+  border: 3px solid #333;
+}
+.img-round {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  background-color: #fff;
+  position: relative;
+  margin-right: 20px;
+}
+
 
 /*
  *
  * PROJECTS / OPEN-SOURCE
  *
  */
-#research {
-	position: absolute;
-	right: 30px;
-	padding-bottom: 16px;
-}
-#research .content {
-	display: flex;
-	align-items: center;
-}
+ #research .content {
+ 	margin-top: 5px;
+ }
  #research .project {
 	font-weight: bold;
 	padding-right: 2px;
