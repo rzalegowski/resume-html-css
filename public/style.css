@@ -33,6 +33,10 @@ ul {
 	padding: 0;
 }
 
+footer {
+	text-align: center;
+}
+
 .uppercase {
 	text-transform: uppercase;
 }
@@ -141,15 +145,6 @@ ul {
 .custom-bullet {
 	padding-left: 10px;
 }
-/*.custom-bullet li {
-  list-style-type: none;
-}
-.custom-bullet li:before {
-  content: '\2022';
-  vertical-align: middle;
-  font-size: 16px;
-  padding-right: 2px;
-}*/
 
 
 /*
@@ -216,10 +211,9 @@ ul {
  */
 
 .split-pane {
-	margin: 15px 0;
+	margin: 15px 0 7px;
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 16px;
 }
 
 #education, #research {
