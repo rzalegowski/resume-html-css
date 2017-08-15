@@ -132,6 +132,9 @@ footer {
 #work {
 	margin: 15px 0;
 }
+#work ul:first-of-type li + li {
+	padding-top: 3px;
+}
 .job {
 	margin: 10px 0 3px;
 	font-weight: bold;
@@ -238,7 +241,7 @@ footer {
  *
  */
  #research .content {
- 	margin-top: 5px;
+ 	margin-top: 10px;
  }
  #research .project {
 	font-weight: bold;
