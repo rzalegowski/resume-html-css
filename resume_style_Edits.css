@@ -14,7 +14,7 @@ html, body {
 }
 
 body {
-	/*zoom: 94.75%;*/ /* Used for printing in Chrome */
+	zoom: 94.75%; /* Used for printing in Chrome */
 }
 
 a {
@@ -172,6 +172,7 @@ footer {
 	margin: 12px 0;
 }
 .project-header {
+	font-weight: normal;
 	font-size: 13px;
 	font-style: italic;
 }
